@@ -367,8 +367,6 @@ section.red_car	{
 	top: 0;
 	visibility: hidden;
 	opacity: 0;
-	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0); /* данная строчка работает в IE6, IE7, и IE8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /* данная строчка работает только в IE8 */
 	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
 }
 .slider2 > input{
@@ -397,8 +395,6 @@ section.red_car	{
 .slider2 > input:checked + label + .slides {
 	visibility: visible;
 	opacity: 1;
-	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); /* данная строчка работает в IE6, IE7, и IE8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; /* данная строчка работает только в IE8 */
 	transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
 }
 label.prewbutton, label.nextbutton{ /* Ссылка "Следующий" и "Педыдущий" */
@@ -410,8 +406,6 @@ top:-0.5%;
 overflow:hidden;
 background:url(../img/left.png) left center no-repeat;
 opacity:0.2;
-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20); /* данная строчка работает в IE6, IE7, и IE8 */
--ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=20)"; /* данная строчка работает только в IE8 */
 z-index:3;
 transition: opacity linear 0.3s;
 }
@@ -424,8 +418,6 @@ label.nextbutton{
 }	
 label.prewbutton:hover, label.nextbutton:hover{
 	opacity: 1;
-	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); /* данная строчка работает в IE6, IE7, и IE8 */
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=100)"; /* данная строчка работает только в IE8 */
 }
 
 input#slide1:checked+label~.prewbutton#prewbutton2,
@@ -663,8 +655,11 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	background: url(../img/bg.asphalt_chit.jpg);
 }
 .video iframe{
+	width: 620px;
+	height: 360px;
 	margin-top: -65px;
 	margin-bottom: 35px;
+	border: 0px;
 }
 
 
@@ -1098,7 +1093,7 @@ img.truck{
 .road_2 h2{
 	font-size: 1.78em;
 }
-.road_text p,.delivery p,{
+.road_text p, .delivery p{
   font-size: 1.142em; /*16px*/ 
 } 
 .road .road_text a, .delivery a, .gallery .button a{
@@ -1259,7 +1254,7 @@ header a.button_hd, footer a.button_hd{
 	padding-right: 9.5%;
 }
 .form_first p, .form_first form input,.form_first button,.confindentiality span{
-	font-size: 0.857;/*12px*/
+	font-size: 0.857em;/*12px*/
 }
 .form_first h3, .form_first p b {
   font-size: 1em;
