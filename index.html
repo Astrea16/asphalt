@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  integrity= "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"  crossorigin= "anonymous">
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/style.css">
+      <title>Asphalt</title>
+    </head>
+    <body>
+    	<div id="openModal" class="modal_D">
+
+    		<div class="modal-content modal_DC">
+
+    			<div class="col-md-1 col-sm-1 col-xs-1"></div>
+    			<div class="col-md-5 hidden-sm hidden-xs text_modal_DC">
+    				<p>...образуются ямы, песок тянется за колесами и п.т., щебень в свою очередь хороший материал для ОСНОВАНИЯ дорожного покрытия, однако он не способен образовать монолитное покрытие<br>
+    					Если же Вы решили сделать дорогу из щебня и отсева (ПГС) - рекомендуем обратиться за помощью к квалифицированным специалистам, только они правильно сделают "разуклонку" и "расклинцовку", иначе ремонт придется повторить в ближайшее время.</p></div>
+    					<div class="col-md-1"></div>
+    					<div class="col-md-4 col-sm-10 col-xs-12 form_modal_DC">
+    						<form action="send.php" method="post">
+    							<div class="form-group top_text">
+    								<input type="text" class="form-control" name="username" placeholder="Имя">
+    							</div>
+    							<div class="form-group bottom_text">
+    								<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    							</div>
+    							<button  class="btn">Оставить заявку</button>
+    						</form>
+    						<div class="secret">
+    							<img src="img/jackdaw.png" alt="">
+    							<span>Конфидициальность данных гарантируется</span>
+    						</div>
+    					</div>
+    					<div class="col-md-1 col-sm-1 col-xs-1"></div>	
+    				</div>
+
+
+    			</div>
+
+    			<!--header-->	
+    			<header>
+    				<div class="container-fluid ">
+    					<div class="row">
+    						<div class="col-md-6 col-sm-6  col-xs-12">
+    							<div class="col-md-4"></div>
+    							<div class="col-md-2 col-sm-2 col-xs-3 text-center logo-header "><a href="#">
+    								<img src="img/A1.png" alt="logo"  class="img-responsive"></a>
+    							</div>
+    							<div class="col-md-6 col-sm-10  col-xs-9 logo-text line">
+    								<span>Производство и продажа <br><b>АСФАЛЬТОВОЙ КРОШКИ</b></span>
+    							</div>
+    						</div>
+    						<div class="col-md-6 col-sm-6 col-xs-12">
+    							<div class="col-md-1"></div>
+    							<div class="col-md-11 col-sm-12 col-xs-12 phone-hd">
+    								<span>+7&nbsp;(913)</span><span class="phones"> 377-04-23</span>&nbsp;&nbsp;&nbsp;
+    								<a href="#openModal" class=" btn button_hd" data-toggle="modal">Заказать звонок</a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>	
+    			</header>
+    			<!--section1-->
+    			<section class="slider">
+    				<div class="container-fluid ">
+    					<div id="myCarousel" class="carousel slide">
+    						<ol class="carousel-indicators">
+    							<!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
+    							<li data-target="#myCarousel" data-slide-to="0" class="active"><div class="rectangle rectangle1"></div></li>
+    							<!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
+    							<li data-target="#myCarousel" data-slide-to="1"><div class="rectangle rectangle1"></div></li>
+    							<!-- Перейти к 2 слайду карусели с помощью соответствующего индекса data-slide-to="2" -->
+
+    							<li data-target="#myCarousel" data-slide-to="2"><div class="rectangle rectangle1"></div></li>
+    							<li data-target="#myCarousel" data-slide-to="3"><div class="rectangle rectangle1"></div></li>
+    						</ol>
+    						<div class="carousel-inner">
+    							<div class="active item">
+    								<img src="img/A2_sl.jpg" alt="photo" class="img-responsive sliderimg slider1">
+    							</div>
+    							<div class="item">
+    								<img src="img/A3_sl.jpg" alt="photo" class="img-responsive sliderimg slider2">
+    							</div>
+    							<div class="item">
+    								<img src="img/A4_sl.jpg" alt="photo" class="img-responsive sliderimg slider3">
+    							</div>
+    							<div class="item">	
+    								<img src="img/A5_sl.jpg" alt="photo" class="img-responsive sliderimg slider4">
+    							</div>
+    						</div>
+    					</div>
+    					<div class=" row text-img">
+    						<div class="col-md-2 col-sm-2 col-xs-1"></div>
+    						<div class="col-md-8 col-sm-8 col-xs-10 ">
+    							<img src="img/text.png" alt="text" class="img-responsive text_img">
+    							<div class="col-md-10 col-sm-10 col-xs-8"></div>
+
+    						</div> 
+    						<div class="col-md-2 col-sm-2 col-xs-1"></div>
+    					</div>
+
+    				</div>
+    			</section>
+    			<!---section2-->	
+    			<section class="form">
+    				<div class="container-fluid ">
+    					<div class="row">
+    						<div class="col-lg-2 col-md-1"></div>
+    						<div class="col-lg-5 col-md-6  col-sm-6  left_col hidden-xs">
+    							<div class="border">
+    								<h2>ЛУЧШЕЕ РЕШЕНИЕ</h2>
+    								<p>для гаражных обществ и дачных поселков</p>
+    								<p><span>10 тонн</span> асфальтной крошки всего <span class="five">5 990 рублей </span></p>
+    							</div>
+    							<div class="timer"><script src="http://megatimer.ru/s/98b92c06b69a465b385ee90edf99c3bd.js"></script></div>
+    							<img src="img/truck.png" alt="#" class="img-responsive truck">
+    						</div>
+    						<div class="col-md-4 col-sm-6 col-xs-12">
+    							<div class=" text-center form_first">
+    								<p><b>Заполните форму сейчас</b><br>
+    									и получите скидку <span>20 % на доставку</span><br>
+    									асфальтовой крошки</p>
+    									<form  action="send.php" method="post">
+    										<div class="form-group top_text">
+    											<input type="text" class="form-control" name="username" placeholder="Имя">
+    										</div>
+    										<div class="form-group bottom_text">
+    											<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    										</div>
+    										<button  class="btn">Оставить заявку</button>
+    									</form>
+    									<div class="confindentiality">
+    										<img src="img/jackdaw.png" alt="">
+    										<span>Конфидициальность данных гарантируется</span>
+    									</div>
+    								</div>
+    							</div>
+    							<div class=" col-lg-1 col-md-1"></div>
+    						</div>
+    					</div>
+    				</section>
+    				<!--section3-->				
+    				<section class="asphalt_chit hidden-xs">
+    					<div class="container-fluid">
+    						<div class="row">
+    							<div class="col-md-5 col-sm-5  left_img">
+    								<img src="img/asphalt.png" alt="" class="img-responsive">
+    							</div>
+    							<div class="col-md-7 col-sm-7 right_text">
+
+    								<h2>ЧТО ТАКОЕ <br> АСФАЛЬТОВАЯ КРОШКА?</h2>
+    								<p><span>Асфальтная крошка</span> - строительный материал, производимый путем переработки старых асфальтовых покрытий. Представляет собой смесь крошки с битумными остатками. Применяется в дорожном строительстве, - это одно из лучших покрытий для асфальтирования гаражных обществ и дачных поселков</p>
+    							</div>
+    						</div>
+    					</div>
+    				</section>
+    				<!---section4-->
+    				<section class="red_car hidden-xs">
+    					<div class="container-fluid">
+    						<div class="slider2" id="slider2">
+    							<input type="radio" name="word" id="slide1">
+    							<label for="slide1">цена</label>
+
+    							<div class="slides slide1">
+    								<img src="img/car2.jpg" alt="car2" class="img-responsive">
+    								<h2><span>ПОЧЕМУ ВАМ НЕОБХОДИМО ВЫБРАТЬ</span> <br><span>АСФАЛЬТОВУЮ КРОШКУ?</span></h2>
+    								<div class="text">
+    									<img src="img/bracket.png" alt="bracket"  class="img-responsive bracket">
+    									<p class="numeral">01</p>
+    									<div class="tagline">
+    										<h2>ЦЕНА</h2>
+    										<p>В отличие от щебенки, крошка не вылетает из-под колес<br>автомобиля, и поэтому его кузов не поцарапается</p></div>
+    									</div>
+    								</div>
+
+    								<input type="radio" name="word" id="slide2">
+    								<label for="slide2">устойчивость</label>
+
+
+    								<div class="slides slide2">
+    									<img src="img/car3.jpg" alt="car2" class="img-responsive">
+
+    									<h2><span>ПОЧЕМУ ВАМ НЕОБХОДИМО ВЫБРАТЬ</span> <br><span>АСФАЛЬТОВУЮ КРОШКУ?</span></h2>
+    									<div class="text">
+    										<img src="img/bracket.png" alt="bracket"  class="img-responsive bracket">
+    										<p class="numeral">02</p>
+    										<div class="tagline"><h2>УСТОЙЧИВОСТЬ</h2>
+    											<p>В отличие от щебенки, крошка не вылетает из-под колес<br>автомобиля, и поэтому его кузов не поцарапается</p></div>
+    										</div>
+    									</div>
+    									<input type="radio" name="word" id="slide3">
+    									<label for="slide3">надежность</label>
+
+    									<div class="slides slide3">
+    										<img src="img/car4.jpg" alt="car4" class="img-responsive">
+    										<h2><span>ПОЧЕМУ ВАМ НЕОБХОДИМО ВЫБРАТЬ</span> <br><span>АСФАЛЬТОВУЮ КРОШКУ?</span></h2>
+    										<div class="text">
+    											<img src="img/bracket.png" alt="bracket"  class="img-responsive bracket">
+    											<p class="numeral">03</p>
+    											<div class="tagline"><h2>НАДЕЖНОСТЬ</h2>
+    												<p>В отличие от щебенки, крошка не вылетает из-под колес<br>автомобиля, и поэтому его кузов не поцарапается</p></div>
+    											</div>
+    										</div>
+    										<input type="radio" name="word" checked id="slide4">
+    										<label for="slide4">практичность</label>
+
+    										<div class="slides slide4">
+    											<img src="img/car1.jpg" alt="car5" class="img-responsive">
+    											<h2><span>ПОЧЕМУ ВАМ НЕОБХОДИМО ВЫБРАТЬ</span> <br><span>АСФАЛЬТОВУЮ КРОШКУ?</span></h2>
+    											<div class="text">
+    												<img src="img/bracket.png" alt="bracket"  class="img-responsive bracket">	
+    												<p class="numeral">04</p>
+    												<div class="tagline"><h2>ПРАКТИЧНОСТЬ</h2>
+    													<p>В отличие от щебенки, крошка не вылетает из-под колес<br>автомобиля, и поэтому его кузов не поцарапается</p></div>
+    												</div>
+    											</div>	
+    											<input type="radio" name="word" id="slide5">
+    											<label for="slide5">оригинальность</label>
+
+
+
+    											<div class="slides slide5">
+    												<img src="img/car5.jpg" alt="car5" class="img-responsive">
+    												<h2><span>ПОЧЕМУ ВАМ НЕОБХОДИМО ВЫБРАТЬ</span> <br><span>АСФАЛЬТОВУЮ КРОШКУ?</span></h2>
+    												<div class="text">
+    													<img src="img/bracket.png" alt="bracket"  class="img-responsive bracket">
+    													<p class="numeral">05</p>
+    													<div class="tagline"><h2>ОРИГИНАЛЬНОСТЬ</h2>
+    														<p>В отличие от щебенки, крошка не вылетает из-под колес<br>автомобиля, и поэтому его кузов не поцарапается</p></div>
+    													</div>
+    												</div>
+    												<label for="slide1" class="prewbutton" id="prewbutton1"></label>
+    												<label for="slide1" class="nextbutton" id="nextbutton1"></label>
+    												<label for="slide3" class="prewbutton" id="prewbutton3"></label>
+    												<label for="slide3" class="nextbutton" id="nextbutton3"></label>
+    												<label for="slide2" class="prewbutton" id="prewbutton2"></label>
+    												<label for="slide2" class="nextbutton" id="nextbutton2"></label>
+    												<label for="slide4" class="prewbutton" id="prewbutton4"></label>
+    												<label for="slide4" class="nextbutton" id="nextbutton4"></label>
+    												<label for="slide5" class="prewbutton" id="prewbutton5"></label>
+    												<label for="slide5" class="nextbutton" id="nextbutton5"></label>
+    											</div>
+    										</div>	
+    									</section>
+    									<!--section5-->
+    									<section  class="road hidden-xs">
+    										<div class="row">
+    											<div class="col-md-5"></div>
+    											<div class="col-md-4 road_text">
+    												<p >Асфальтную крошку мы продаем более 4 лет
+    													и с уверенностью можем сказать, что она более
+    													предпочтительна для покрытия дорог, чем ПГС
+    													или щебень, т.к. ПГС- это 85% песка, и под
+    													воздействием воды образуются ямы.</p>
+    													<a href="#" class="btn btn-warning">Узнать подробнее<span class="glyphicon glyphicon-chevron-right"></span></a>
+    												</div>
+    												<div class="col-md-3"></div>
+    											</div>
+    										</section>
+    										<!--section6-->									
+    										<section class="icon">
+    											<div class="container-fluid">
+    												<div class="row">
+
+    													<div class="col-md-12 col-sm-12 col-xs-12 text-center">
+    														<h2><span>Почему мы можем гарантировать</span><br>
+    															<span>высочайшее качество и низкую цену?</span></h2>
+    														</div>
+
+    													</div>
+    													<div class="row top_row">	
+    														<div class="col-lg-2 col-md-1 col-sm-1"></div>
+    														<div class="col-lg-8 col-md-10 col-sm-10  col-xs-12 ">
+    															<div class="col-lg-1 col-md-1 col-sm-1">
+    																<img src="img/icon10.png" alt="icon" class="img_icon hidden-xs"></div>
+    																<div class="col-md-3 col-sm-3 col-xs-12">
+    																	<div class="text_icon text1">
+    																		У нас самая большая 
+    																		производственная 
+    																		мощность</div>
+    																	</div>	
+    																	<div class="col-md-1 col-sm-1">
+    																		<img src="img/icon11.png" alt="icon" class="img_icon hidden-xs"></div>	
+    																		<div class="col-md-3 col-sm-3 col-xs-12">
+    																			<div class="text_icon text1">
+    																				4 года успешной
+    																				работы в области 
+    																				асфальтовой крошки
+    																			</div>	
+    																		</div>
+    																		<div class="col-md-1 col-sm-1"><img src="img/icon12.png" alt="icon" class="img_icon hidden-xs"></div>	
+    																		<div class="col-md-3 col-sm-3 col-xs-12">
+    																			<div class="text_icon">
+    																				Низкая стоимость, так
+    																				как мы являемся 
+    																				производителями
+    																			</div>	
+    																		</div>
+    																	</div>	
+    																	<div class="col-lg-2 col-md-1 col-sm-1"></div>
+    																</div>
+
+    																<div class="row bottom_row text-center">
+    																	<div class="col-md-3 col-sm-1"></div>
+    																	<div class="col-md-6 col-sm-10 col-xs-12">
+    																		<div class="col-md-1 col-sm-1"><img src="img/icon13.png" alt="icon" class="img_icon house hidden-xs"></div>
+    																		<div class="col-md-4 col-sm-4">
+    																			<div class="text_icon house_icon">
+    																				Товар всегда
+    																				в наличии
+    																			</div>
+
+    																		</div>
+    																		<div class="col-md-1 col-sm-1"></div>
+    																		<div class="col-md-1 col-sm-1">
+    																			<img src="img/icon14.png" alt="icon" class="img_icon hidden-xs"></div>
+    																			<div class="col-md-5 col-sm-5">
+    																				<div class="text_icon">
+    																					Возьмём на себя 
+    																					доставку и укладку 
+    																					покрытия
+    																				</div>
+    																			</div>
+    																		</div>
+    																		<div class="col-md-3 col-sm-1"></div>
+    																	</div>
+    																</div>
+    															</section>
+    			<!---section7-->
+    				<section class="stock">
+    																<div class="container-fluid ">
+    																	<div class="row">
+    																		<div class="col-md-2"></div>
+    																		<div class="col-md-5  col-sm-6 left_col hidden-xs ">
+
+    			<div class="border">
+    			<h2>АКЦИЯ!</h2>
+    							<p>менеджеры готовы ответить на ваши вопросы</p>
+    			<p><span>20 тонн</span> асфальтной крошки всего <span>10 990 рублей </span></p>
+    			</div>
+
+    		<div class="timer">
+    		<script src="http://megatimer.ru/s/98b92c06b69a465b385ee90edf99c3bd.js"></script></div>
+
+    	<img src="img/man.png" alt="man" class="img-responsive man">
+    			</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+    				<div class="form_first">
+    			<h3>Хотите узнать больше о
+    			преимуществах <br>
+    			асфальтовой крошки?</h3>
+    			<p><span>Оставьте заявку</span> на <br>
+    			подробную консультацию</p>
+    				<form role="form" action="send.php" method="post">
+    				<div class="form-group top_text">
+ 							<input type="text" class="form-control" name="username" placeholder="Имя">
+    					</div>
+    					<div class="form-group bottom_text">
+    					<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    					</div>
+    					<button  class="btn">Оставить заявку</button>
+    					</form>
+    					<div class="confindentiality">
+    					<img src="img/jackdaw.png" alt="">
+    					<span>Конфидициальность данных гарантируется</span>
+    					</div>
+    					</div>
+    						</div>	
+    					<div class="col-md-1"></div>
+    					</div>
+    						</div>
+    					</section>
+    					<!--section8-->	
+    					<section class="road_2">
+    					<div class="container-fluid">
+    						<div class="row">
+    					<div class="col-md-12 col-sm-12 col-xs-12">
+    					<h2><span>Почему нашу Асфальтовую крошку </span><br>
+    					<span>выбрало более чем 3000 </span><br>
+    					<span>довольных клиентов?</span></h2>
+    					</div>
+    					</div>
+    					<div class=" row imgs_group">
+							<div class="col-md-1 "></div>
+    					<div class="col-md-6 col-sm-7 col-xs-12 img1">
+    					<div class="text1">
+    					<p>
+    				Битум увеличивает срок службы покрытия, т.к. он дополнительно связывает и уплотняет раствор.
+    				</p>
+    				</div>
+    				</div>
+    				<div class="col-md-4 col-sm-5 col-xs-12 img2">
+    				<div class="text1">
+    				<p>
+    				Гораздо плотнее укладывается, чем песок и щебень
+    				</p>
+    				</div>
+    				</div>
+    		<div class="col-md-1 "></div>
+    		</div>
+    			<div class="row row2">
+    		<div class="col-md-1 "></div>
+    		<div class="col-md-4 col-sm-7 col-xs-12  img3">
+    		<div class="text12">
+    			<p>
+    			Устойчив к воздействию воды и прочим разрушениям
+    		</p>
+    		</div>
+    			</div>
+
+    	<div class="col-md-4 col-sm-5 col-xs-12  img4">
+    		<div class="text12">
+    	<p>
+    	Укатывается до плотности асфальта
+    		</p>
+    		</div>
+    		</div>
+    	<div class="col-md-3"></div>
+    	</div>
+			</div>
+    	</section>
+    	<!--section9-->
+    	<section class="video hidden-xs">
+    	<div class="container-fluid">
+    	<div class="row">
+    	<div class="col-md-2 col-sm-2"></div>
+    	<div class="col-md-8 col-sm-8 text-center">
+    		<iframe width="620" height="360" src="https://www.youtube.com/embed/bRqtwuJw91k"  frameborder="0" allowfullscreen>
+    </iframe>
+    																						</div>
+    <div class="col-md-2 col-sm-2"></div>  
+    </div>	
+    </div>
+    </section>
+    	<!--section10-->	
+    <section class="form">
+    	<div class="container-fluid ">
+    		<div class="row">
+    	<div class="col-md-2"></div>
+    	<div class="col-md-5  col-sm-6  left_col hidden-xs">
+    	<div class="border">
+    	<h2>ЛУЧШЕЕ РЕШЕНИЕ</h2>
+    	<p>для гаражных обществ и дачных поселков</p>
+    	<p><span>10 тонн</span> асфальтной крошки всего <span class="five">5 990 рублей </span></p>
+    				</div>
+    	<div class="timer"><script src="http://megatimer.ru/s/98b92c06b69a465b385ee90edf99c3bd.js"></script></div>
+    	<img src="img/truck.png" alt="#" class="img-responsive truck">
+    		</div>
+    	<div class="col-md-4 col-sm-6 col-xs-12">
+    	<div class=" text-center form_first" id="form_first">
+    	<p><b>Заполните форму сейчас</b><br>
+    	и получите скидку <span>20 % на доставку</span><br>
+    	асфальтовой крошки</p>
+    	<form  action="send.php" method="post">
+    	<div class="form-group top_text">
+    	<input type="text" class="form-control" name="username" placeholder="Имя">
+    		</div>
+    		<div class="form-group bottom_text">
+    	<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    	</div>
+    	<button  class="btn">Оставить заявку</button>
+    	</form>
+    	<div class="confindentiality">
+    	<img src="img/jackdaw.png" alt="">
+    	<span>Конфидициальность данных гарантируется</span>
+    		</div>
+    	</div>
+    	</div>
+    	<div class="col-md-1"></div>
+    	</div>
+    	</div>
+    	</section>	
+    	<!--section11-->
+    	<section class="gallery">
+    			<div class="container">
+    			<div class="row">
+    			<div class="col-md-2 col-sm-1"></div>
+    			<div class="col-md-8 col-sm-10 col-xs-12">
+    			<h2>Области применения <br>
+    			асфальтовой крошки</h2>
+    				</div>
+    			<div class="col-md-2 col-sm-1"></div>
+    				</div>
+    				<div class="row">
+    			<div class="gallery_wight">
+    			<div class="col-md-4 col-sm-4 col-xs-6">
+    			<a class="fancyimage" rel="group" href="img/img10_1.jpg">
+    			<img src="img/img10_1.jpg" alt="img10" class="img-responsive img-left">
+    			<p class="paragraph_l">Дачные <br>поселки</p>
+    			</a>
+    			</div>
+    			<div class="col-md-4 col-sm-4 col-xs-6 text-center">
+    			<a class="fancyimage" rel="group" href="img/img10_2.jpg">		
+    			<img src="img/img10_2.jpg" alt="img11" class="img-responsive middle">
+    			<p>Гаражные<br>товарищества</p>
+    			</a>
+    			</div>
+    			<div class="col-md-4 col-sm-4 col-xs-6 text-center ">	
+    			<a class="fancyimage" rel="group" href="img/img10_3.jpg">		
+    			<img src="img/img10_3.jpg" alt="img12" class="img-responsive img-right">
+    			<p class=" paragraph_r">Спортивные<br>площадки</p>
+    			</a>
+    			</div>	
+					<div class="col-md-4 col-sm-4 col-xs-6 text-center">
+    			<a class="fancyimage" rel="group" href="img/img10_4.jpg">
+    			<img src="img/img10_4.jpg" alt="img10" class="img-responsive img-left">
+    			<p class="paragraph_l">	поселковые и<br>загородные дороги</p>
+    			</a>
+    			</div>
+    			<div class="col-md-4 col-sm-4 col-xs-6 text-center">
+    			<a class="fancyimage" rel="group" href="img/img10_5.jpg">		
+    			<img src="img/img10_5.jpg" alt="img13" class="img-responsive middle">
+    			<p class="paragraph_m">Стоянки</p>
+    			</a>
+    			</div>
+    			<div class="col-md-4 col-sm-4 col-xs-6">
+    			<a class="fancyimage" rel="group" href="img/img10_1.jpg">
+    			<img src="img/img10_6.jpg" alt="img14" class="img-responsive img-right">
+    			<p class=" paragraph_r">Приусадебные<br>площадки</p>	
+    			</a>	
+    			</div>
+    			</div>		
+    			</div>	
+					<div class="row hidden-xs">
+    			<div class="col-md-12  col-sm-12 col-xs-12 text-center button">
+    			<a href="#">Узнать, где ещё можно применить покрытия из асфальтовой крошки!<img src="img/chevron-right.png" alt="check"  class="img-responsive"> 			
+    			</a>
+    			</div>
+    			</div> 
+					</div>
+    			</section>
+    			<!--section12-->
+    			<section class="calculator">
+    			<div class="container">	
+    			<div class="row">	
+    			<div class="col-md-2 col-sm-1"></div>
+    			<div class="col-md-8 col-sm-10 col-xs-12">
+    			<h2>Как правильно рассчитать объем 	
+    			асфальтовой крошки?</h2>
+    			</div>
+    			<div class="col-md-2 col-sm-1"></div>
+    			</div>
+    			<div class="col-md-12">	
+    			<form  action="post"  oninput="document.getElementById('result').innerHTML 
+    			= 
+    			parseFloat(document.getElementById('a').value)
+    					*
+    				parseFloat(document.getElementById('b').value)
+    					*
+    				parseFloat(document.getElementById('c').value)
+    				*
+    				parseFloat(document.getElementById('d').value)
+    				*
+    				parseFloat(document.getElementById('x').value)
+    					*
+    				parseFloat(document.getElementById('y').value)
+    				*
+    				parseFloat(document.getElementById('z').value)">
+    				<div class="row">
+    				<div class="col-md-2 col-sm-1"></div>
+    																										<div class="col-md-6 col-sm-6 form-group arthick">
+    																											<label for="a" class="font_f">Площадь, кв.м.</label>
+    																											<input type="number" class="form-control act" id="a">
+    																										</div>
+    																										<div class="col-md-3 col-sm-4 form-group">
+    																											<label for="b" class="font_p">Толщина покрытия, см.</label>
+    																											<input type="number" class="form-control act" id="b">						
+    																										</div>
+
+    																										<div class="col-md-1 col-sm-1"></div>	
+    																									</div>
+    																									<div class="row">
+    																										<div class="col-md-2 col-sm-1"></div>
+
+
+    																										<div class="col-md-2 col-sm-2 form-group volume">
+    																											<label for="c" class="font_p">Объем, куб.м.</label>
+    																											<input type="number" class="form-control act act2" id="c">
+    																										</div>
+
+    																										<div class="col-md-2 col-sm-2 form-group act_1">
+    																											<label for="d" class="font_p">Масса,т</label>
+    																											<input type="number"class="form-control act act2" id="d">
+    																										</div>	
+    																										<div class="col-md-2 col-sm-2 form-group act_1">
+    																											<label for="x" class="font_p">Цена за тонну.</label>
+    																											<input type="number" class="form-control act act2" id="x">
+    																										</div>
+    																										<div class="col-md-2 col-sm-2 form-group act_1">
+    																											<label for="y" class="font_p">Доставка, руб.</label>
+    																											<input type="number" class="form-control act act2" id="y">						
+    																										</div>	
+    																										<div class="col-md-2 col-sm-2 form-group act_1">
+    																											<label for="price1" class="font_p">Цена за тонну.</label>
+    																											<input type="number"  class="form-control act act2" id="price1">						
+    																										</div>
+    																										<div class="col-sm-1"></div>
+
+
+    																									</div>
+    																									<div class="row">
+    																										<div class="col-md-2 col-sm-1"></div>
+    																										<div class="col-md-3 col-sm-5 col-xs-12 form-group discount">
+    																											<label for="z" class="font_p">Скидка</label>
+    																											<input type="number"  class="form-control act act2" id="z">						
+    																										</div>
+    																										<div class="col-md-5 col-sm-5 col-xs-12 form-group">
+    																											<label for="result" class="res">ИТОГО:</label>
+    	<output  class="form-control act_2 act2" id="result"></output>					
+    	</div>
+    			<div class="col-md-2 col-sm-1"></div>
+    		</div>		
+    			</form>
+    			</div>							
+    				</div>
+    			</section>
+    					<!--section13-->
+    				<section class="application hidden-xs">
+    																						<div class="container-fluid">
+    																							<div class="row application-top">
+    																								<div class="col-md-2 col-sm-1"></div>
+    																								<div class="col-md-8 col-sm-10 col-xs-12">
+    			<h2>Где уже применили <br>нашу продукцию? </h2>
+    				</div>
+    				<div class="col-md-2 col-sm-1"></div>
+    				</div>
+    			<div class="row">
+    			<div class="col-md-4 col-sm-4"></div>
+    				<div class="col-md-4 col-sm-4"></div>
+    			<div class="col-md-4 col-sm-4 col-xs-12">
+    			<img src="img/image-group.jpg" alt="image-group" class="img-responsive">
+    			<a href="#" class="link1">Hyperlink</a>
+    			<a href="#" class="link2">Hyperlink</a>
+    			<a href="#" class="link3">Hyperlink</a>
+    			</div>	
+    			</div>
+    			</div>	
+    			</section>
+    			<!--section14-->
+    			<section class="delivery">
+    																						<div class="conteiner-fluid">
+    																							<div class="row delivery1">
+    																								<img src="img/planet.png" alt="planet" class="img-responsive">
+    		<div class="col-md-2 col-sm-1"></div>
+    		<div class="col-md-8 col-sm-10 col-xs-12">
+    		<div class="block">
+    		<h2>Думаете , как доставить?</h2>
+    		<a href="#">Оставить заявку <img src="img/chevron-right.png" alt="chevron-right"></a>
+    		<p>У нас есть необходимый транспорт для перевозки заказываемого вами объема. Просто оставте заявку или позвоните по номеру 8 (913) 377-04-23, и наши мененжеры проконсультируют вас и дадут ответы на интересующие Вас вопросы!</p>
+    			</div>
+    		</div>
+    		<div class="col-md-2 col-sm-1"></div>
+    				</div>
+    		</div>
+    		</section>
+    			<!--section15-->
+    		<section class="job">
+    																						<div class="container-fluid">
+    																							<div class="row">
+    																								<div class="col-md-2 col-sm-1"></div>
+    																								<div class="col-md-8 col-sm-10 col-xs-12">
+    				<h2>Как мы работаем?</h2>
+    				</div>
+    			<div class="col-md-2 col-sm-1"></div>
+    																							</div>
+    																							<div class="row">
+    																								<div class="col-lg-2 col-md-1"></div>
+    					<div class=" col-lg-8 col-md-10 col-sm-12 col-xs-12">
+    					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    				<div class="block1">
+    					<img src="img/icon15.png" alt="icon15">
+    				<p>Вы <a href="#form_first">оставляете заявку</a> или звоните по номеру<br> +7 (913) 377-04-23</p>
+    				</div> 
+    				<img src="img/sign.png" alt="sign" class="sign sign1 hidden-xs">
+    				</div>
+    																									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    																										<div class="block2">
+    																											<img src="img/icon16.png" alt="icon16">
+    																											<p>С вами связывется менеджер и консультирует Вас</p>
+    																										</div> <img src="img/sign.png" alt="sign" class="sign hidden-xs ">
+    																									</div>
+    																									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    																										<div class="block3">
+    																											<img src="img/icon17.png" alt="icon17">
+    																											<p>Вы говорите объем, место и удобное время доствки</p>
+    																										</div> <img src="img/sign.png" alt="sign" class="sign hidden-xs">
+    																									</div>
+    																									<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    																										<div class="block4">
+    																											<img src="img/icon18.png" alt="icon18">
+    																											<p>Мы привозим и помогаем укатать покрытие</p>
+    																										</div>
+    																									</div>
+    																								</div>
+    																								<div class="col-lg-2 col-md-1"></div>
+    																							</div>
+    																						</div>
+    																					</section>
+    	<!--section16-->
+  <section class="reviews">
+  	<div class="container-fluid">
+  		<div class="row">
+  			<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+  				<h2>Отзывы наших клиентов</h2>
+  			</div>
+  		</div>
+  		<div class="row">
+  			<div class="col-lg-2 col-md-1"></div>
+  			<div class="col-lg-8 col-md-10 col-sm-12">
+  				<div class="col-lg-4 col-md-4 col-sm-4">
+  					<p>В процессе сотрудничества “Асфальт54” зарекомендовал себя как надёжного подрядчика. Сотрудники коммпании обладают высокими профессиональными качествами, оперативно и своевременно выполняют поставленные задачи, прилагая все усилия для максимально</p>
+  					<hr>
+  					<img src="img/recall.jpg" alt="recall">
+  					<p class="author">Николай Козак, ГосАсфальт<br><a href="#"> Полный отзыв</a></p>
+  				</div>
+  				<div class="col-lg-4 col-md-4 col-sm-4">
+  					<p>В процессе сотрудничества “Асфальт54” зарекомендовал себя как надёжного подрядчика. Сотрудники коммпании обладают высокими профессиональными качествами, оперативно и своевременно выполняют поставленные задачи, прилагая все усилия для максимально</p>
+  					<hr>
+  					<img src="img/recall.jpg" alt="recall">
+  					<p class="author">Николай Козак, ГосАсфальт<br><a href="#"> Полный отзыв</a></p>
+  				</div>
+  				<div class="col-lg-4 col-md-4 col-sm-4">
+  					<p>В процессе сотрудничества “Асфальт54” зарекомендовал себя как надёжного подрядчика. Сотрудники коммпании обладают высокими профессиональными качествами, оперативно и своевременно выполняют поставленные задачи, прилагая все усилия для максимально</p>
+  					<hr>
+  					<img src="img/recall.jpg" alt="recall">
+  					<p class="author">Николай Козак, ГосАсфальт<br><a href="#"> Полный отзыв</a></p>
+  				</div>
+  			</div>
+  			<div class="col-lg-2 col-md-1"></div>
+  		</div>
+  	</div>
+  </section> 
+  <!--section17-->
+  <section class="stock">
+    	<div class="container-fluid ">
+    	<div class="row">
+    	<div class="col-md-2"></div>
+    	<div class="col-md-5  col-sm-6 left_col hidden-xs ">
+    	<div class="border">
+    	<h2>АКЦИЯ!</h2>
+    	<p>менеджеры готовы ответить на ваши вопросы</p>
+    	<p><span>20 тонн</span> асфальтной крошки всего <span>10 990 рублей </span></p>
+    </div>
+   	<div class="timer">
+    	<script src="http://megatimer.ru/s/98b92c06b69a465b385ee90edf99c3bd.js"></script></div>
+
+    	<img src="img/man.png" alt="man" class="img-responsive man">
+    	</div>
+ 		<div class="col-md-4 col-sm-6 col-xs-12">
+    	<div class="form_first">
+    	<h3>Хотите узнать больше о
+    	преимуществах <br>
+    	асфальтовой крошки?</h3>
+    	<p><span>Оставьте заявку</span> на <br>
+    	подробную консультацию</p>
+    	<form role="form" action="send.php" method="post">
+    	<div class="form-group top_text">
+    <input type="text" class="form-control" name="username" placeholder="Имя">
+    	</div>
+    	<div class="form-group bottom_text">
+    <input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    </div>
+    <button type="submit" class="btn">Оставить заявку</button>
+    </form>
+    <div class="confindentiality">
+    <img src="img/jackdaw.png" alt="">
+  		<span>Конфидициальность данных гарантируется</span>
+    </div>
+    </div>
+     <div class="col-md-1"></div>
+    	</div>
+    	</div>
+    	</div>
+    </section>
+    <!--section18-->
+  <section class="partner">
+  	<div class="container-fluid">
+  		<img src="img/left1.png" alt="left1" class="img-responsive left1 hidden-xs">
+  		<img src="img/right1.png" alt="right" class="img-responsive right1 hidden-xs">
+  		<div class="row">
+  		<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+  				<h2>Мы ищем партнёров по всей России</h2>
+  		</div>
+  		</div>
+  		<div class="row">
+  		<div class="col-lg-3 col-md-2"></div>	
+  			<div class="col-lg-6 col-md-8 col-sm-12 text-center">
+  				<p>Партнёров, которым передаём готовую производственную линию, сырье, рецептуру,производственные, экономические, юридические навыки. Мы научим Вас находить клиентов и продавать асфальтовую крошку!</p>
+  			</div>
+  			<div class="col-lg-3 col-md-2"></div>
+ 			</div>
+ 			<div class="row">
+ 			<div class="col-lg-12 col-md-12 col-sm-12 text-center">
+ 				<h3>Хотите стать нашим дилером? Оставьте заявку сейчас!</h3>
+ 				</div>
+ 				</div>
+ 				<div class="row">
+ 				<div class="col-lg-2"></div>
+ 				<div class="col-lg-8 col-md-12 col-sm-12 text-center">
+ 				<form action="" class=" form-inline partner-form">
+ 					
+ 						 <div class="form-group">
+   					 <input type="text" class="form-control exampleInput">
+  					</div>
+  					<div class="form-group">
+   					<input type="number" class="form-control exampleInput">
+  					</div>
+  				
+ 					 <button type="submit" class="btn">Оставить заявку</button>
+				</form>
+				<div class="confindentiality1">
+				<img src="img/icn.png" alt="icn">
+					<span>Конфидициальность данных гарантируется</span>
+ 				</div>
+ 				</div>
+ 				<div class="col-lg-2"></div>
+			</div>
+ 			
+ 			<div class="row yelow text-center">
+ 				<h2>Остались вопросы? &nbsp;  Звоните!</h2>
+ 			</div>
+  	</div>
+  </section> 
+  <footer>
+  	<div class="container-fluid ">
+    					<div class="row">
+    						<div class="col-md-6 col-sm-6  col-xs-12">
+    							<div class="col-md-4"></div>
+    							<div class="col-md-2 col-sm-2 col-xs-3 text-center logo-header "><a href="#">
+    								<img src="img/A1.png" alt="logo"  class="img-responsive"></a>
+    							</div>
+    							<div class="col-md-6 col-sm-10  col-xs-9 logo-text line">
+    								<span>Производство и продажа <br><b>АСФАЛЬТОВОЙ КРОШКИ</b></span>
+    							</div>
+    						</div>
+    						<div class="col-md-6 col-sm-6 col-xs-12">
+    							<div class="col-md-1"></div>
+    							<div class="col-md-11 col-sm-12 col-xs-12 phone-hd">
+    								<span>+7&nbsp;(913)</span><span class="phones"> 377-04-23</span>&nbsp;&nbsp;&nbsp;
+    								<a href="#openModal" class=" btn button_hd" data-toggle="modal">Заказать звонок</a>
+    							</div>
+    						</div>
+    					</div>
+    				</div>	
+  </footer> 																		 																					
+  	<script type="text/javascript">
+  $(document).ready(function() {
+  	$("a.fancyimage").fancybox();
+    	});
+    </script>				
+    <link rel="stylesheet" href="fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>										
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bxslider/jquery.bxslider.min.js"></script>
+    <script src="js/code.js"></script>												
+  </body>
+</html>

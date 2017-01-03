@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: "ProximaNovaRegular";
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+    src: url("../fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+    url("../fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaBold";
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot");
+    src: url("../fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+    url("../fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "ProximaNovaBlack";
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot");
+    src: url("../fonts/ProximaNovaBlack/ProximaNovaBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.woff") format("woff"),
+    url("../fonts/ProximaNovaBlack/ProximaNovaBlack.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "ProximaNova-Light";
+    src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot");
+    src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova-Light/ProximaNova-Light.woff") format("woff"),  
+    url("../fonts/ProximaNova-Light/ProximaNova-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;       
+}
+
+@font-face {
+    font-family: "ProximaNova-SemiBold";
+    src: url("../fonts/ProximaNova-SemiBold/ProximaNova-SemiBold.eot");
+    src: url("../fonts/ProximaNova-SemiBold/ProximaNova-SemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ProximaNova-SemiBold/ProximaNova-SemiBold.woff") format("woff"),
+    url("../fonts/ProximaNova-SemiBold/ProximaNova-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
