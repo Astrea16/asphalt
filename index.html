@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -16,24 +17,24 @@
       <title>Asphalt</title>
     </head>
     <body>
+    
+
     	<div id="openModal" class="modal_D">
-
     		<div class="modal-content modal_DC">
-
     			<div class="col-md-1 col-sm-1 col-xs-1"></div>
     			<div class="col-md-5 hidden-sm hidden-xs text_modal_DC">
     				<p>...образуются ямы, песок тянется за колесами и п.т., щебень в свою очередь хороший материал для ОСНОВАНИЯ дорожного покрытия, однако он не способен образовать монолитное покрытие<br>
     					Если же Вы решили сделать дорогу из щебня и отсева (ПГС) - рекомендуем обратиться за помощью к квалифицированным специалистам, только они правильно сделают "разуклонку" и "расклинцовку", иначе ремонт придется повторить в ближайшее время.</p></div>
     					<div class="col-md-1"></div>
     					<div class="col-md-4 col-sm-10 col-xs-12 form_modal_DC">
-    						<form action="send.php" method="post">
+    						<form  method="post" id="form_modal">
     							<div class="form-group top_text">
-    								<input type="text" class="form-control" name="username" placeholder="Имя">
+    								<input type="text" class="form-control" name="username" required placeholder="Имя">
     							</div>
     							<div class="form-group bottom_text">
-    								<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    								<input type="tel" class="form-control" name="phone" required placeholder="Номер телефона">
     							</div>
-    							<button  class="btn">Оставить заявку</button>
+    							<button type="submit" class="btn">Оставить заявку</button>
     						</form>
     						<div class="secret">
     							<img src="img/jackdaw.png" alt="">
@@ -73,7 +74,7 @@
     			<section class="slider">
     				<div class="container-fluid ">
     					<div id="myCarousel" class="carousel slide">
-    						<ol class="carousel-indicators">
+    						<ol class="carousel-indicators indicator">
     							<!-- Перейти к 0 слайду карусели с помощью соответствующего индекса data-slide-to="0" -->
     							<li data-target="#myCarousel" data-slide-to="0" class="active"><div class="rectangle rectangle1"></div></li>
     							<!-- Перейти к 1 слайду карусели с помощью соответствующего индекса data-slide-to="1" -->
@@ -101,9 +102,7 @@
     					<div class=" row text-img">
     						<div class="col-md-2 col-sm-2 col-xs-1"></div>
     						<div class="col-md-8 col-sm-8 col-xs-10 ">
-    							<img src="img/text.png" alt="text" class="img-responsive text_img">
-    							<div class="col-md-10 col-sm-10 col-xs-8"></div>
-
+    							<img src="img/text.png" alt="text" class="img-responsive img_text">
     						</div> 
     						<div class="col-md-2 col-sm-2 col-xs-1"></div>
     					</div>
@@ -129,14 +128,14 @@
     								<p><b>Заполните форму сейчас</b><br>
     									и получите скидку <span>20 % на доставку</span><br>
     									асфальтовой крошки</p>
-    									<form  action="send.php" method="post">
+    									<form  method="post" id="form1">
     										<div class="form-group top_text">
-    											<input type="text" class="form-control" name="username" placeholder="Имя">
+    											<input type="text" class="form-control" name="username" required placeholder="Имя">
     										</div>
     										<div class="form-group bottom_text">
-    											<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    											<input type="tel" class="form-control" name="phone" required placeholder="Номер телефона">
     										</div>
-    										<button  class="btn">Оставить заявку</button>
+    										<button type="submit" class="btn">Оставить заявку</button>
     									</form>
     									<div class="confindentiality">
     										<img src="img/jackdaw.png" alt="">
@@ -153,7 +152,7 @@
     					<div class="container-fluid">
     						<div class="row">
     							<div class="col-md-5 col-sm-5  left_img">
-    								<img src="img/asphalt.png" alt="" class="img-responsive">
+    								<img src="img/asphalt.png" alt="" class="img-responsive pile_asphalt">
     							</div>
     							<div class="col-md-7 col-sm-7 right_text">
 
@@ -297,12 +296,12 @@
     																				асфальтовой крошки
     																			</div>	
     																		</div>
-    																		<div class="col-md-1 col-sm-1"><img src="img/icon12.png" alt="icon" class="img_icon hidden-xs"></div>	
-    																		<div class="col-md-3 col-sm-3 col-xs-12">
-    																			<div class="text_icon">
-    																				Низкая стоимость, так
-    																				как мы являемся 
-    																				производителями
+    				<div class="col-md-1 col-sm-1"><img src="img/icon12.png" alt="icon" class="img_icon hidden-xs"></div>	
+    				<div class="col-md-3 col-sm-3 col-xs-12">
+    				<div class="text_icon">
+    					Низкая стоимость, так
+    					как мы являемся 
+    					производителями
     																			</div>	
     																		</div>
     																	</div>	
@@ -337,11 +336,10 @@
     															</section>
     			<!---section7-->
     				<section class="stock">
-    																<div class="container-fluid ">
-    																	<div class="row">
-    																		<div class="col-md-2"></div>
-    																		<div class="col-md-5  col-sm-6 left_col hidden-xs ">
-
+    						<div class="container-fluid ">
+    							<div class="row">
+    								<div class="col-md-2"></div>
+    								<div class="col-md-5  col-sm-6 left_col hidden-xs ">
     			<div class="border">
     			<h2>АКЦИЯ!</h2>
     							<p>менеджеры готовы ответить на ваши вопросы</p>
@@ -360,14 +358,14 @@
     			асфальтовой крошки?</h3>
     			<p><span>Оставьте заявку</span> на <br>
     			подробную консультацию</p>
-    				<form role="form" action="send.php" method="post">
+    				<form   method="post" id="form2">
     				<div class="form-group top_text">
- 							<input type="text" class="form-control" name="username" placeholder="Имя">
+ 							<input type="text" class="form-control" name="username" required placeholder="Имя">
     					</div>
     					<div class="form-group bottom_text">
-    					<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    					<input type="tel" class="form-control" name="phone" required placeholder="Номер телефона">
     					</div>
-    					<button  class="btn">Оставить заявку</button>
+    					<button type="submit" class="btn">Оставить заявку</button>
     					</form>
     					<div class="confindentiality">
     					<img src="img/jackdaw.png" alt="">
@@ -447,27 +445,27 @@
     		<div class="row">
     	<div class="col-md-2"></div>
     	<div class="col-md-5  col-sm-6  left_col hidden-xs">
-    	<div class="border">
+    	<div class="border border1">
     	<h2>ЛУЧШЕЕ РЕШЕНИЕ</h2>
     	<p>для гаражных обществ и дачных поселков</p>
-    	<p><span>10 тонн</span> асфальтной крошки всего <span class="five">5 990 рублей </span></p>
+    	<p><span class="ten">10 тонн</span> асфальтной крошки всего <span class="five">5 990 рублей </span></p>
     				</div>
     	<div class="timer"><script src="http://megatimer.ru/s/98b92c06b69a465b385ee90edf99c3bd.js"></script></div>
     	<img src="img/truck.png" alt="#" class="img-responsive truck">
     		</div>
     	<div class="col-md-4 col-sm-6 col-xs-12">
-    	<div class=" text-center form_first" id="form_first">
+    	<div class=" text-center form_first form3" id="form_first">
     	<p><b>Заполните форму сейчас</b><br>
     	и получите скидку <span>20 % на доставку</span><br>
     	асфальтовой крошки</p>
-    	<form  action="send.php" method="post">
+    	<form  method="post" id="form3">
     	<div class="form-group top_text">
-    	<input type="text" class="form-control" name="username" placeholder="Имя">
+    	<input type="text" class="form-control" name="username" required placeholder="Имя">
     		</div>
     		<div class="form-group bottom_text">
-    	<input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    	<input type="tel" class="form-control" name="phone" required placeholder="Номер телефона">
     	</div>
-    	<button  class="btn">Оставить заявку</button>
+    	<button type="submit" class="btn">Оставить заявку</button>
     	</form>
     	<div class="confindentiality">
     	<img src="img/jackdaw.png" alt="">
@@ -567,28 +565,24 @@
     				parseFloat(document.getElementById('z').value)">
     				<div class="row">
     				<div class="col-md-2 col-sm-1"></div>
-    																										<div class="col-md-6 col-sm-6 form-group arthick">
-    																											<label for="a" class="font_f">Площадь, кв.м.</label>
-    																											<input type="number" class="form-control act" id="a">
-    																										</div>
-    																										<div class="col-md-3 col-sm-4 form-group">
-    																											<label for="b" class="font_p">Толщина покрытия, см.</label>
-    																											<input type="number" class="form-control act" id="b">						
-    																										</div>
-
-    																										<div class="col-md-1 col-sm-1"></div>	
-    																									</div>
-    																									<div class="row">
-    																										<div class="col-md-2 col-sm-1"></div>
-
-
-    																										<div class="col-md-2 col-sm-2 form-group volume">
-    																											<label for="c" class="font_p">Объем, куб.м.</label>
-    																											<input type="number" class="form-control act act2" id="c">
-    																										</div>
-
-    																										<div class="col-md-2 col-sm-2 form-group act_1">
-    																											<label for="d" class="font_p">Масса,т</label>
+    						<div class="col-md-6 col-sm-6 form-group arthick">
+    							<label for="a" class="font_f">Площадь, кв.м.</label>
+    							<input type="number" class="form-control act" id="a">
+    						</div>
+    						<div class="col-md-3 col-sm-4 form-group">
+    							<label for="b" class="font_p">Толщина покрытия, см.</label>
+    							<input type="number" class="form-control act" id="b">						
+    						</div>
+								<div class="col-md-1 col-sm-1"></div>	
+    						</div>
+    					<div class="row">
+    						<div class="col-md-2 col-sm-1"></div>
+								<div class="col-md-2 col-sm-2 form-group volume">
+    							<label for="c" class="font_p">Объем, куб.м.</label>
+    							<input type="number" class="form-control act act2" id="c">
+    				</div>
+					<div class="col-md-2 col-sm-2 form-group act_1">
+    			<label for="d" class="font_p">Масса,т</label>
     		<input type="number" class="form-control act act2" id="d">
     			</div>	
     			<div class="col-md-2 col-sm-2 form-group act_1">
@@ -597,25 +591,23 @@
     		</div>
     		<div class="col-md-2 col-sm-2 form-group act_1">
     		<label for="y" class="font_p">Доставка, руб.</label>
-    																											<input type="number" class="form-control act act2" id="y">						
-    																										</div>	
-    																										<div class="col-md-2 col-sm-2 form-group act_1">
-    																											<label for="price1" class="font_p">Цена за тонну.</label>
-    																											<input type="number"  class="form-control act act2" id="price1">						
-    																										</div>
-    																										<div class="col-sm-1"></div>
-
-
-    																									</div>
-    																									<div class="row">
-    																										<div class="col-md-2 col-sm-1"></div>
-    																										<div class="col-md-3 col-sm-5 col-xs-12 form-group discount">
-    																											<label for="z" class="font_p">Скидка</label>
-    																											<input type="number"  class="form-control act act2" id="z">						
-    																										</div>
-    																										<div class="col-md-5 col-sm-5 col-xs-12 form-group">
-    																											<label for="result" class="res">ИТОГО:</label>
-    	<output  class="form-control act_2 act2" id="result"></output>					
+    		<input type="number" class="form-control act act2" id="y">						
+    				</div>	
+    			<div class="col-md-2 col-sm-2 form-group act_1">
+    			<label for="price1" class="font_p">Цена за тонну.</label>
+    			<input type="number"  class="form-control act act2" id="price1">						
+    			</div>
+    			<div class="col-sm-1"></div>
+					</div>
+    				<div class="row">
+    			<div class="col-md-2 col-sm-1"></div>
+    			<div class="col-md-3 col-sm-5 col-xs-12 form-group discount">
+    				<label for="z" class="font_p">Скидка</label>
+    			<input type="number"  class="form-control act act2" id="z">						
+    			</div>
+    			<div class="col-md-5 col-sm-5 col-xs-12 form-group">
+    				<label for="result" class="res">ИТОГО:</label>
+    				<output  class="form-control act_2 act2" id="result"></output>					
     	</div>
     			<div class="col-md-2 col-sm-1"></div>
     		</div>		
@@ -625,12 +617,12 @@
     			</section>
     					<!--section13-->
     				<section class="application hidden-xs">
-    																						<div class="container-fluid">
-    																							<div class="row application-top">
-    																								<div class="col-md-2 col-sm-1"></div>
-    																								<div class="col-md-8 col-sm-10 col-xs-12">
-    			<h2>Где уже применили <br>нашу продукцию? </h2>
-    				</div>
+    					<div class="container-fluid">
+    						<div class="row application-top">
+    							<div class="col-md-2 col-sm-1"></div>
+    							<div class="col-md-8 col-sm-10 col-xs-12">
+    									<h2>Где уже применили <br>нашу продукцию? </h2>
+    					</div>
     				<div class="col-md-2 col-sm-1"></div>
     				</div>
     			<div class="row">
@@ -647,9 +639,9 @@
     			</section>
     			<!--section14-->
     			<section class="delivery">
-    																						<div class="conteiner-fluid">
-    																							<div class="row delivery1">
-    																								<img src="img/planet.png" alt="planet" class="img-responsive">
+    				<div class="conteiner-fluid">
+    				<div class="row delivery1">
+    				<img src="img/planet.png" alt="planet" class="img-responsive">
     		<div class="col-md-2 col-sm-1"></div>
     		<div class="col-md-8 col-sm-10 col-xs-12">
     		<div class="block">
@@ -664,16 +656,16 @@
     		</section>
     			<!--section15-->
     		<section class="job">
-    																						<div class="container-fluid">
-    																							<div class="row">
-    																								<div class="col-md-2 col-sm-1"></div>
-    																								<div class="col-md-8 col-sm-10 col-xs-12">
+    			<div class="container-fluid">
+    			<div class="row">
+    			<div class="col-md-2 col-sm-1"></div>
+    			<div class="col-md-8 col-sm-10 col-xs-12">
     				<h2>Как мы работаем?</h2>
     				</div>
     			<div class="col-md-2 col-sm-1"></div>
-    																							</div>
-    																							<div class="row">
-    																								<div class="col-lg-2 col-md-1"></div>
+    				</div>
+    				<div class="row">
+    				<div class="col-lg-2 col-md-1"></div>
     					<div class=" col-lg-8 col-md-10 col-sm-12 col-xs-12">
     					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
     				<div class="block1">
@@ -682,29 +674,29 @@
     				</div> 
     				<img src="img/sign.png" alt="sign" class="sign sign1 hidden-xs">
     				</div>
-    																									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
-    																										<div class="block2">
-    																											<img src="img/icon16.png" alt="icon16">
-    																											<p>С вами связывется менеджер и консультирует Вас</p>
-    																										</div> <img src="img/sign.png" alt="sign" class="sign hidden-xs ">
-    																									</div>
-    																									<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    					<div class="block2">
+    					<img src="img/icon16.png" alt="icon16">
+    					<p>С вами связывется менеджер и консультирует Вас</p>
+    					</div> <img src="img/sign.png" alt="sign" class="sign hidden-xs ">
+    							</div>
+    							<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
  						<div class="block3">
-    																											<img src="img/icon17.png" alt="icon17">
-    																											<p>Вы говорите объем, место и удобное время доствки</p>
-    																										</div> <img src="img/sign.png" alt="sign" class="sign hidden-xs">
-    																									</div>
-    																									<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
-    																										<div class="block4">
-    																											<img src="img/icon18.png" alt="icon18">
-    																											<p>Мы привозим и помогаем укатать покрытие</p>
-    																										</div>
-    																									</div>
-    																								</div>
-    																								<div class="col-lg-2 col-md-1"></div>
-    																							</div>
-    																						</div>
-    																					</section>
+    					<img src="img/icon17.png" alt="icon17">
+    						<p>Вы говорите объем, место и удобное время доствки</p>
+    								</div> <img src="img/sign.png" alt="sign" class="sign hidden-xs">
+    							</div>
+    						<div class=" col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
+    						<div class="block4">
+    						<img src="img/icon18.png" alt="icon18">
+    						<p>Мы привозим и помогаем укатать покрытие</p>
+    						</div>
+    						<div>
+    						</div>
+    						<div class="col-lg-2 col-md-1"></div>
+    						</div>
+    				</div>
+    </section>
     	<!--section16-->
   <section class="reviews">
   	<div class="container-fluid">
@@ -762,12 +754,12 @@
     	асфальтовой крошки?</h3>
     	<p><span>Оставьте заявку</span> на <br>
     	подробную консультацию</p>
-    	<form action="send.php" method="post">
+    	<form  method="post" id="form4">
     	<div class="form-group top_text">
-    <input type="text" class="form-control" name="username" placeholder="Имя">
+    <input type="text" class="form-control" name="username" required placeholder="Имя">
     	</div>
     	<div class="form-group bottom_text">
-    <input type="tel" class="form-control" name="phone" placeholder="Номер телефона">
+    <input type="tel" class="form-control" name="phone" required placeholder="Номер телефона">
     </div>
     <button type="submit" class="btn">Оставить заявку</button>
     </form>
@@ -806,13 +798,13 @@
  				<div class="row">
  				<div class="col-lg-2"></div>
  				<div class="col-lg-8 col-md-12 col-sm-12 text-center">
- 				<form action="send.php" class="form-inline partner-form">
+ 				<form  id="form5" class="form-inline partner-form">
  					
  						 <div class="form-group">
-   					 <input type="text" class="form-control exampleInput">
+   					 <input type="text" name="username" required class="form-control exampleInput">
   					</div>
   					<div class="form-group">
-   					<input type="number" class="form-control exampleInput">
+   					<input type="tel" name="phone" required class="form-control exampleInput">
   					</div>
   				
  					 <button type="submit" class="btn">Оставить заявку</button>
@@ -861,6 +853,23 @@
     <script type="text/javascript" src="fancybox/jquery.fancybox.pack.js"></script>										
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bxslider/jquery.bxslider.min.js"></script>
-    <script src="js/code.js"></script>												
+    							
+ <script type="text/javascript">
+		$(document).on('ready', function(){
+    	$('#form_modal', '#form1', '#form2', '#form3', '#form4', '#form5').on('submit', function(e){
+    		e.preventDefault();
+    		var FormData;
+    		FormData = $(this).serialize();
+    		$.ajax({
+    		type: "POST",
+    		url: "send.php",
+    		data: FormData,
+    				success: function(){
+    					window.open('https://ya.ru', 'Thanks, Dude', 'width=200,height=100')
+    				}
+    		});		
+    	});          
+		});    
+</script>		
   </body>
 </html>

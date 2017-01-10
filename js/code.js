@@ -17,4 +17,12 @@
 		}
 	});
 });
-
+<?php if (isset($successMessage) && $successMessage): ?>
+    <div class="alert alert-success" role="alert">
+        <?php echo $successMessage; ?>
+    </div>
+<?php elseif (isset($errorMessage) && $errorMessage): ?>
+    <div class="alert alert-danger" role="alert">
+        <?php echo $errorMessage; ?>
+    </div>
+<?php endif; ?>

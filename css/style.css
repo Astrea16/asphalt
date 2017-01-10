@@ -166,29 +166,23 @@ header a.button_hd:hover, footer a.button_hd:hover{
 .slider ul{
 	list-style: none;
 }
-.slider img.sliderimg{
-	margin: 0 auto;
-		}
 .slider .carousel{
 	position: relative;
 }
-.slider .text-img{
+ .text-img{
 	position: absolute;
 	top: 32.5%;
-	left: 0%;
-	width: 100%
+	left: 2.2%;
 }
-.slider .text-img  img{
-	margin: 0px auto;
-	display: block;
+.slider img.img_text{
+	max-width: 145%;
 }
-
-.slider .carousel-indicators{
+.slider .indicator{
 	width: 30%;
 	top: 69.7%;
-	left: 94.5%;
+	left: 94.7%;
 }
-.slider .carousel-indicators li {
+.slider .indicator li {
 	width: 8px;
 	height: 8px;
 	margin: 0;
@@ -197,10 +191,10 @@ header a.button_hd:hover, footer a.button_hd:hover{
 	border: 0;
 	border-radius: 0px;
 }
-.slider .carousel-indicators .active {
+.slider .indicator .active {
 	width: 8px;
 	height: 8px;
-	margin-right: 3px;
+	margin-right: 4px;
 	background-color: #f4c50b;
 }
 
@@ -212,10 +206,10 @@ header a.button_hd:hover, footer a.button_hd:hover{
 .border{
 	max-width: 540px;
 	width: 100%;
-	margin-top: 12.8%;
-	margin-left: 2.9%;
+	margin-top: 13.5%;
+	margin-left: 2.7%;
 	border: 3px solid #262626;
-	padding: 10px 0px 15px 30px;
+	padding: 8px 0px 14px 30px;
 	font: 18px 'ProximaNovaRegular';
 	color: #262626;
 }
@@ -229,13 +223,11 @@ header a.button_hd:hover, footer a.button_hd:hover{
 	font-family: "ProximaNova-SemiBold";
 }
 .border p span{
-	padding: 0px 5px;
+	padding: 0px 2px;
 	background: #f6c506;
-	margin-right: -3px;
 }
 .border p span.five{
-	margin-left: -5px;
-	margin-right: -0px;
+	margin-left: -1px;
 }
 .timer  {
 	position: absolute;
@@ -246,10 +238,10 @@ img.truck{
 	margin: -3.8% 0 0 -4.7%;
 }
 .form_first{
-	max-width: 378px;
+	max-width: 379px;
 	width: 100%;
-	margin-left: -10.2%;
-	margin-top: 16.3%;
+	margin-left: -10.1%;
+	margin-top: 17%;
 	background: url(../img/bg_form.jpg);
 	padding: 10% 12.5% 6% 12.5%;	
 }
@@ -309,21 +301,16 @@ img.truck{
 .asphalt_chit{
 	background: url(../img/bg.asphalt_chit.jpg);
 }
-
-.asphalt_chit .left_img{
-	padding-bottom: 4.4%;
-}
 .asphalt_chit .right_text{
 	padding-left: 3.5%;
 }
-.asphalt_chit img{
-	margin-left: 17%;
-	margin-top: 19%;
+.asphalt_chit img.pile_asphalt{
+	margin: 19.6% 0 0 5%;
+	max-width: 115%;
 }
 .asphalt_chit h2{
 	font: 35px 'ProximaNova-SemiBold';
-	margin-top: 12%;
-	
+	margin-top: 12.3%;
 }
 .asphalt_chit p{
 	max-width: 550px;
@@ -447,8 +434,8 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 }
 .red_car .slider2 img.bracket {
 	display: inline-block;
-	margin-left: 18.8%;
-	margin-top: 8.9%;		
+	margin-left: 18.7%;
+	margin-top: 9%;		
 }
 .red_car .slider2 p.numeral{
 	font: 200px 'ProximaNovaBold';
@@ -464,6 +451,7 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 1.2;
+	margin-top: -0.1%;
 }
 .red_car .slider2 .tagline{
 	margin: 23.8% 0 0 23.95%;
@@ -471,21 +459,21 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 }
 /*-------------------section5------------------------*/
 .road{
-	margin-top: 3.2%;
+	margin-top: 3.15%;
 	background: url(../img/road.jpg) no-repeat;
 }	
 .road .road_text{
 	max-width: 540px;
 	width: 100%;
 	background: #fff;
-	margin: 2.6% 0 3.2% 3.7%;
+	margin: 2.6% 0 3.4% 3.7%;
 	padding:1% 2.8%  2.6%; 
 }
 .road .road_text p{
 	font: 18px 'ProximaNovaRegular';
 	color: #4d4d4d;
 	margin-left:  -0.7%;
-	padding: 5% 7% 1.5% 7%;
+	padding: 5% 7% 1.6% 7%;
 	line-height: 1.35;
 }	
 .road .road_text a{
@@ -494,12 +482,11 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	color: #fff;
 	background: #f4c50b;
 	text-transform: uppercase;
-	padding: 14px 28px;
-	margin-left: 6%;
+	padding: 15px 28px;
+	margin-left: 6.1%;
 	border: 0px;
 	border-radius: 0px 0px 0px 0px;
--moz-border-radius: 0px 0px 0px 0px;
--webkit-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
 }
 .road .road_text a:hover{
 	color: #ffeb3b;
@@ -513,7 +500,7 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	background: url(../img/bg.asphalt_chit.jpg) repeat;
 }
 .icon h2{
-	margin: 5.1% 0 7.7% 23% ;
+	margin: 4.9% 0 7.7% 23% ;
 	font: 2.5em 'ProximaNovaBold';/*35px*/
 	text-transform: uppercase;
 	color: #f4c50b;
@@ -548,15 +535,12 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	margin-bottom: 5%;
 }
 .icon .bottom_row{
-	margin-bottom: 5%;
+	margin-bottom: 6.3%;
 }
 /*-------------------------section7-----------*/
-.stock .border{
-	margin-left: 3%;
-}
 .stock .form_first{
 	padding: 1.4% 12.5% 6% 12.5%;
-  margin: 16.1% 0 17.8% -10.2%;
+  margin: 16.5% 0 17.8% -10.2%;
 }
  .form_first h3{
  	margin-left: -2%;
@@ -661,14 +645,25 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	margin-bottom: 35px;
 	border: 0px;
 }
-
-
+/*----section10*/
+.border1{
+	padding-bottom: 13px;
+  padding-top: 9px;
+  margin-top: 13.1%;
+}
+.form span.ten{
+	padding: 0px 5px;
+	margin-right: -5px;
+}
+.form3{
+	margin-top: 16.5%;
+}
 /*------section11*/
 .gallery{
  	background: url(../img/bg.asphalt_chit.jpg);
  } 
  .gallery h2{
-	margin: 9% 0 5.1% -3.2%;		
+	margin: 9.4% 0 5.1% -3.2%;		
 }
 .gallery img{
 	margin-top: 6%;
@@ -723,7 +718,7 @@ p.paragraph_m{
 }
 /*--section12--*/
 .calculator h2{
-	margin: 6% 0 8% -3%;
+	margin: 5.8% 0 8% -3%;
 }
 .calculator form{
 	margin-bottom: 2%;
@@ -1150,7 +1145,7 @@ input#slide5:checked+label~.nextbutton#nextbutton4 {
 	margin-left: 0.5%;
 }
 .stock .form_first{
-	margin: 7.1% 0 0 -0.2%;
+	margin: 7.1% 0 10% -0.2%;
 }
 .stock .timer{
 	left: 24%;
